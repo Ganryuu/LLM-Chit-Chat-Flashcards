@@ -10,7 +10,7 @@ from langchain import PromptTemplate, LLMChain
 import os 
 
 
-st.write("API key", st.secrets["API_KEY"]) # fixing environment variable for the api secret key for streamlit
+# st.write("API key", st.secrets["API_KEY"]) # fixing environment variable for the api secret key for streamlit
 os.environ["CEREBRIUMAI_API_KEY"] = st.secrets["API_KEY"]
 
 
