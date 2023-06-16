@@ -3,3 +3,4 @@ langchain==0.0.201
 Pillow==9.5.0
 streamlit==1.14.0
 streamlit_chat==0.0.2.2
+cerebrium==1.1.1
