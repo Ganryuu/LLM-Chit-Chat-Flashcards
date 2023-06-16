@@ -11,7 +11,7 @@ import os
 
 
 
-os.environ["CEREBRIUMAI_API_KEY"] = "public-" # your cerebruimAI api key
+os.environ["CEREBRIUMAI_API_KEY"] = "API_KEY" # your cerebruimAI api key
 st.set_page_config(page_title='LLM Chit Chat', page_icon=":star2:")
 st.markdown("<h1 style='text-align: center;'>FlashCard LLM Generator</h1>", unsafe_allow_html=True)
 
